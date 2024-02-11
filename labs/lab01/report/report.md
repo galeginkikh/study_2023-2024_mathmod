@@ -7,11 +7,6 @@ author: "Легиньких Галина Андреевна"
 ## Generic otions
 lang: ru-RU
 toc-title: "Содержание"
-
-## Bibliography
-bibliography: bib/cite.bib
-csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl
-
 ## Pdf output format
 toc: true # Table of contents
 toc-depth: 2
@@ -25,8 +20,8 @@ documentclass: scrreprt
 polyglossia-lang:
   name: russian
   options:
-	- spelling=modern
-	- babelshorthands=true
+  - spelling=modern
+  - babelshorthands=true
 polyglossia-otherlangs:
   name: english
 ## I18n babel
