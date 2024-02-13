@@ -36,8 +36,8 @@ end
 y = solve(ODEProblem(syst, v0, (t0, tmax)), Tsit5(), saveat=t)
 
 # Построение и сохранение графика для первой модели
-plot(t, y[1,:], label="Армия x", lw=2, color=:blue, xlabel="Время", ylabel="Численность армии")
-plot!(t, y[2,:], label="Армия y", lw=2, color=:red, grid=true)
+plot(t, y[1,:], label="Армия x", lw=2, color=:red, xlabel="Время", ylabel="Численность армии")
+plot!(t, y[2,:], label="Армия y", lw=2, color=:blue, grid=true)
 title!("Модель боевых действий № 1")
 savefig("battle_model_1_julia.png")
 
@@ -68,7 +68,7 @@ end
 y_2 = solve(ODEProblem(syst_2, v0, (t0, tmax)), Tsit5(), saveat=t)
 
 # Построение и сохранение графика для второй модели
-plot(t, y_2[1,:], label="Армия x", lw=2, color=:blue, xlabel="Время", ylabel="Численность армии")
-plot!(t, y_2[2,:], label="Армия y", lw=2, color=:red, grid=true)
+plot(t, y_2[1,:], label="Армия x", lw=2, color=:red, xlabel="Время", ylabel="Численность армии")
+plot!(t, y_2[2,:], label="Армия y", lw=2, color=:blue, grid=true)
 title!("Модель боевых действий № 2")
 savefig("battle_model_2_julia.png")
