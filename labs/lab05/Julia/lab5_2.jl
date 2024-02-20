@@ -25,4 +25,4 @@ T = [t for t in sol.t]
 plt = plot(dpi=300, legend=true)
 plot!(plt, T, X, label="Численность жертв", color=:green)
 plot!(plt, T, Y, label="Численность хищников", color=:red)
-savefig(plt, "5_3.png")
+savefig(plt, "model_3.png")

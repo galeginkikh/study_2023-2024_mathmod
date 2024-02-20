@@ -24,10 +24,10 @@ T = [t for t in sol.t]
 
 plt = plot(dpi=300, legend=false)
 plot!(plt, X, Y, label="Зависимость численности хищников от численности жертв", color=:blue)
-savefig(plt, "5_1.png")
+savefig(plt, "model_1.png")
 
 
 plt2 = plot(dpi=300, legend=true)
 plot!(plt2, T, X, label="Численность жертв", color=:green)
 plot!(plt2, T, Y, label="Численность хищников", color=:red)
-savefig(plt2, "5_2.png")
+savefig(plt2, "model_2.png")
