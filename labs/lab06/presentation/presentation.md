@@ -1,7 +1,7 @@
 ---
 ## Front matter
 lang: ru-RU
-title: Лабораторная работа №6"
+title: Лабораторная работа №6
 subtitle: Задача об эпидемии
 author:
   - Легиньких Г.А.
