@@ -77,8 +77,8 @@ header-includes:
 $$
 \frac{dS}{dt}=
  \begin{cases}
-	-\alpha S & \text{,если $I(t) > I^*$} \\   
-	0 & \text{,если $I(t) \leq I^*$}
+	-\alpha S, & \text{если $I(t) > I^*$} \\   
+	0, & \text{если $I(t) \leq I^*$}
  \end{cases}
 $$
 
