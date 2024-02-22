@@ -359,6 +359,6 @@ end lab8_2;
 
 [2] Документация по OpenModelica: https://openmodelica.org/
 
-[5] Математические модели конкурентной среды: https://dspace.spbu.ru/bitstream/11701/12019/1/Gorynya_2018.pdf
+[3] Математические модели конкурентной среды: https://dspace.spbu.ru/bitstream/11701/12019/1/Gorynya_2018.pdf
 
 
