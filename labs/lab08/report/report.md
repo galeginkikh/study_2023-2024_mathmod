@@ -149,14 +149,14 @@ $$ \widetilde{M_{+}} = Nq \frac{\tau}{\delta}(1 - \frac{\widetilde{p}}{p_{cr}})\
 
 $$\frac{dM_1}{d\Theta} = M_1 - \frac{b}{c_1}M_1 M_2 - \frac{a1}{c1} M_1^2 $$
 
-$$ \frac{dM_2}{d\Theta} = \frac{c_2}{c_1} M_2 - \frac{b}{c_1} M_1 M_2 - \frac{a_2}{c_1} M_2^2$$
+$$\frac{dM_2}{d\Theta} = \frac{c_2}{c_1}M_2 - \frac{b}{c_1} M_1 M_2 - \frac{a_2}{c_1} M_2^2$$
 где 
 
-$$ a_1 = \frac{p_{cr}}{\tau_1^2 \widetilde{p}_1^2 Nq } $$
-$$ a_2 = \frac{p_{cr}}{\tau_2^2 \widetilde{p}_2^2 Nq } $$ 
-$$ b = \frac{p_{cr}}{\tau_1^2 \widetilde{p}_1^2 \tau_2^2 \widetilde{p}_2^2 Nq} $$
-$$ c_1 = \frac{p_{cr} - \widetilde{p}_1}{\tau_1 \widetilde{p}_1} $$
-$$ c_2 = \frac{p_{cr} - \widetilde{p}_2}{\tau_2 \widetilde{p}_2} $$
+$$a_1 = \frac{p_{cr}}{\tau_1^2 \widetilde{p}_1^2 Nq }$$
+$$a_2 = \frac{p_{cr}}{\tau_2^2 \widetilde{p}_2^2 Nq }$$ 
+$$b = \frac{p_{cr}}{\tau_1^2 \widetilde{p}_1^2 \tau_2^2 \widetilde{p}_2^2 Nq}$$
+$$c_1 = \frac{p_{cr} - \widetilde{p}_1}{\tau_1 \widetilde{p}_1}$$
+$$c_2 = \frac{p_{cr} - \widetilde{p}_2}{\tau_2 \widetilde{p}_2}$$
 
 также введена нормировка $t = c_1 \Theta$
 
