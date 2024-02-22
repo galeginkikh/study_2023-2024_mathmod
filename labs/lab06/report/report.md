@@ -87,9 +87,8 @@ $$
 $$
 \frac{dI}{dt}=
  \begin{cases}
-	\alpha S -\beta I &\text{, если I(t) > I^*}
-	\\   
-	-\beta I &\text{, если I(t) \leq I^*}
+	\alpha S -\beta I, &\text{если } I(t) > I^* \\   
+	-\beta I, &\text{если } I(t) \leq I^*
  \end{cases}
 $$
 
