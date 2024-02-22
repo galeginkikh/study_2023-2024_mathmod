@@ -13,5 +13,4 @@ equation
 der(S) = 0;
 der(I) = -beta*I;
 der(R) = beta*I;
-
 end lab6;
