@@ -4,7 +4,7 @@ FILES += $(patsubst %.md, %.html, $(wildcard *.md))
 
 FILTERS =
 PDF_ENGINE =
-PDF_OPTIONS =
+PDF_OPTIONS += --number-sections --variable mainfont="PT Serif" --variable sansfont="PT Sans" --variable monofont="PT Mono"
 PDF_FORMAT_OPTIONS = -t beamer --slide-level=2
 
 FILTERS += --citeproc
