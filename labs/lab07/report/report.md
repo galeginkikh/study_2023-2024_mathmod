@@ -270,6 +270,5 @@ end lab7_3;
 [3] Мальтузианская модель роста: https://www.stolaf.edu//people/mckelvey/envision.dir/malthus.html
 
 
-$$C(x, t + \delta t) = C(x, t) + D \frac{\partial^2 C(x, t)}{\partial x^2} \delta t - k(x, t)C(x, t) \delta t + \sqrt{\frac{k(x, t)C(x, t)}{V}}\eta(x, t)\sqrt{\delta t}$$
-где $\delta t$ - шаг по времени, $\eta(x, t)$ - гауссовский белый шум.
+
 
