@@ -268,3 +268,14 @@ end lab7_3;
 [2] Документация по OpenModelica: https://openmodelica.org/
 
 [3] Мальтузианская модель роста: https://www.stolaf.edu//people/mckelvey/envision.dir/malthus.html
+
+
+Пусть $C(x, t)$ - концентрация реагентов в точке $x$ в момент времени $t$. Модель будет описываться следующим уравнением Ланжевена:
+
+$$\frac{\partial C(x, t)}{\partial t} = D \frac{\partial^2 C(x, t)}{\partial x^2} - k(x, t)C(x, t) + \sqrt{\frac{k(x, t)C(x, t)}{V}}\eta(x, t)$$
+
+где:
+- \( D \) - коэффициент диффузии,
+- \( k(x, t) \) - функция стохастической скорости,
+- \( V \) - объем системы,
+- \( \eta(x, t) \) - гауссовский белый шум.
